@@ -9,7 +9,7 @@ fn main() {
 fn getting_arg() {
 	loop {
 		println!("<insira argumento>");
-		let mut arg	 = String::new();
+		let mut arg = String::new();
 		
 		io::stdin()
 			.read_line(&mut arg)
